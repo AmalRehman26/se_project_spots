@@ -1,7 +1,6 @@
 .footer {
   display: flex;
   justify-content: center;
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -9,13 +8,14 @@
   letter-spacing: 0%;
   width: 104px;
   height: 16px;
-  padding: 60px 668px;
+  padding: 60px 0;
+  margin: auto;
   color: rgba(33, 33, 33, 0.7);
 }
 
 @media screen and (max-width: 630px) {
   .footer {
-    padding: 60px 108px;
+    padding: 60px 0;
     text-align: center;
     margin-right: auto;
     margin-left: auto;

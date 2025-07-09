@@ -3,7 +3,7 @@
   width: 100%;
   display: block;
   object-fit: cover;
-  border-radius: 5%;
+  border-radius: 8px;
 }
 
 .card__content {
