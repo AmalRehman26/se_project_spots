@@ -36,7 +36,6 @@
 
 .profile__description {
   margin: 0;
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-style: Medium;
   font-size: 16px;
@@ -59,12 +58,13 @@
   width: 107.34px;
   height: 16;
   gap: 8px;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+  /* padding-bottom: 20px;
+  margin-bottom: 20px; */
   opacity: 70%;
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
   padding-left: 0;
   margin-left: 0;
+  display: flex;
+  align-items: center;
 }
 
 .profile__edit-button:hover {
@@ -85,8 +85,8 @@
   border-radius: 8px;
   height: 52px;
   width: 149px;
-  margin-top: 138px;
-  margin-bottom: 20px;
+  margin-top: auto;
+  /* margin-bottom: 20px; */
   display: flex;
   justify-content: center;
   align-items: center;
