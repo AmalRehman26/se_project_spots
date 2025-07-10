@@ -10,7 +10,6 @@
   margin: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, 413px);
-  /* grid-template-rows: repeat(auto-fit, 445px); */
   row-gap: 40px;
   column-gap: 20px;
   justify-content: center;
@@ -23,7 +22,6 @@
 
   .cards__list {
     grid-template-columns: repeat(auto-fit, 288px);
-    /* grid-template-rows: repeat(auto-fit, 318px); */
     row-gap: 20px;
   }
 }

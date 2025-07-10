@@ -56,40 +56,47 @@
   background: transparent;
   border: none;
   height: 16px;
-  width: 107.34012603759766px;
+  width: 107.34px;
   height: 16;
-  opacity: 0.7;
   gap: 8px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  opacity: 70%;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  padding-left: 0;
+  margin-left: 0;
 }
 
 .profile__edit-button:hover {
-  opacity: 70%;
+  opacity: 100%;
+  cursor: pointer;
 }
 
 .profile__add-button {
   background-color: #212121;
   margin: 0;
   margin-left: auto;
-  background-color: transparent;
+  background-color: #212121;
+  color: #fcf5e5;
   border: none;
-  padding-bottom: 20px;
-  padding-top: 138px;
-  padding-right: 0;
+  /* padding: 138px 0 20px; */
   display: flex;
   align-items: flex-end;
-  width: 149;
-  height: 52;
-  opacity: 1;
   border-radius: 8px;
+  height: 52px;
+  width: 149px;
+  margin-top: 138px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 8px;
-  padding-top: 18px;
-  padding-right: 32px;
-  padding-bottom: 18px;
-  padding-left: 32px;
+  padding: 0;
 }
 
 .profile__add-button:hover {
   opacity: 80%;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 630px) {
