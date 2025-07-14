@@ -112,6 +112,60 @@
         </section>
       </main>
       <footer class="footer">2023 © Spots</footer>
+      <div class="modal modal_is-opened">
+        <div class="modal__container">
+          <button type="button" class="modal__close-button">
+            <img src="/images/cross-icon.svg" alt="cross" />
+          </button>
+          <h2 class="modal__title">Edit Profile</h2>
+          <form class="modal__form">
+            <label for="username" class="modal__label">Name</label>
+            <input
+              type="text"
+              id="username"
+              class="modal__input"
+              placeholder="Type your name"
+            />
+
+            <label for="description" class="modal__label">Description</label>
+            <input
+              type="text"
+              class="modal__input"
+              id="description"
+              placeholder="Describe yourself"
+            />
+
+            <button type="submit" class="modal__save">Save</button>
+          </form>
+        </div>
+      </div>
+      <div class="modal modal_is-opened">
+        <div class="modal__container">
+          <button type="button" class="modal__close-button">
+            <img src="/images/cross-icon.svg" alt="cross" />
+          </button>
+          <h2 class="modal__title">New Post</h2>
+          <form class="modal__form">
+            <label for="image-link" class="modal__label">Image Link</label>
+            <input
+              type="url"
+              id="image-link"
+              class="modal__input"
+              placeholder="Paste a link to your picture"
+            />
+
+            <label for="caption" class="modal__label">Caption</label>
+            <input
+              type="text"
+              class="modal__input"
+              id="caption"
+              placeholder="Type your caption"
+            />
+
+            <button type="submit" class="modal__save">Save</button>
+          </form>
+        </div>
+      </div>
     </div>
   </body>
 </html>
