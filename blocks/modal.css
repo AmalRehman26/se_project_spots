@@ -13,6 +13,10 @@
   transition: visibility 0s linear 0.5s, opacity 0.5s linear;
 }
 
+.modal_type_preview {
+  padding: 0 16px;
+}
+
 .modal_is-opened {
   visibility: visible;
   opacity: 1;
@@ -46,8 +50,27 @@
   justify-content: flex-end;
 }
 
+.modal__close_type_preview {
+  top: 0;
+  background-color: transparent;
+  border: none;
+  opacity: 40%;
+  right: -52.5px;
+  cursor: pointer;
+  position: absolute;
+  background: transparent;
+  border: none;
+  opacity: 0.4;
+  cursor: pointer;
+}
+
 .modal__close-button:hover {
   opacity: 100%;
+}
+
+.modal__close_type_preview:hover {
+  opacity: 1;
+  color: white;
 }
 
 .modal__title {
@@ -124,6 +147,29 @@
   opacity: 40%;
 }
 
+.modal__image-container {
+  position: relative;
+}
+
+.modal__image {
+  background-color: transparent;
+  /* position: relative; */
+  max-width: 80vw;
+  max-height: 80vh;
+  width: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.modal__caption {
+  background-color: rgba(33, 33, 33, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  padding: 4px 8px 4px 8px;
+  max-width: 214px;
+  position: absolute;
+}
+
 @media screen and (max-width: 630px) {
   .modal {
     padding-left: 10px;
@@ -145,5 +191,16 @@
   .modal__close-button {
     top: 20px;
     right: 12px;
+  }
+
+  .modal__close_type_preview {
+    background-color: black;
+  }
+  .modal__close_type_preview:hover {
+    opacity: 40%;
+  }
+
+  .modal__image {
+    max-width: unset;
   }
 }
