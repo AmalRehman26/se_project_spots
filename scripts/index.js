@@ -139,6 +139,15 @@ function handleAddCardSubmit(evt) {
 
 addCardFormElement.addEventListener("submit", handleAddCardSubmit);
 
+function renderCard(data) {
+  const el = getCardElement(data);
+  cardList.prepend(el);
+}
+
+initialCards.forEach((card) => {
+  renderCard(card);
+});
+
 initialCards.forEach((initialCard) => {
   const el = getCardElement(initialCard);
   cardList.append(el);
